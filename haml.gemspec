@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'rake' unless RAKEVERSION
+require 'rake' unless defined?(RAKEVERSION)
 
 # Note that Haml's gem-compilation process requires access to the filesystem.
 # This means that it cannot be automatically run by e.g. GitHub's gem system.
